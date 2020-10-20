@@ -2,11 +2,56 @@
 <html>
 <head>
 <title> Welcome to my Website! </title>
+<link rel="stylesheet" href="mystyle.css">
+<style>
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#grad1 {
+  height: 55px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, blue, red);
+}
+
+h3 {
+  text-shadow: 2px 2px 5px black;
+}
+
+
+
+
+</style>
 </head>
 <body>
+
+  <div id="grad1" style="text-align:center;margin:auto;color:#fff;font-size:32px;font-weight:bold">
+  Look here for my Gradient: Graphic Design is my passion
+  </div>
+
+
+
+
+</head>
 <h1> About Me </h1>
-<p> My name is Andres Rodriguez and I am majoring in graphic design. </p>
-<a href= "https://www.chicago.gov/city/en.html"> This is a link </a>
+<div id="major"> My name is Andres Rodriguez and I am majoring in graphic design. I was born and raised in Chicago and I am now attending Columbia College Chicago. </div>
+<a href= "https://www.chicago.gov/city/en.html"> City of Chicago </a>
 <img src="chicago.jpeg" alt=chicago.com width="150">
+
+<h2>Look Here at my use of CSS Button</h2>
+<button>Default Button</button>
+
+<h3> Look here for my Text Shadow Effect </h3>
+
 </body>
 </html>
